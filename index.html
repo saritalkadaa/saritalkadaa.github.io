@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <style media="screen">
+      h1{
+        color: pink;
+        font-family: cursive;
+        font-size: 24;
+        font-style: italic;
+        text-align: center;
+
+      }
+      .first{
+        font-style: italic;
+        font-family: cursive;
+        color: black;
+        text-align: center;
+
+
+      }
+      .second{
+        font-style: italic;
+        font-family: cursive;
+        color: black;
+        text-align: center;
+      }
+      p{
+        text-align: center;
+      }
+      h2{
+        color: pink;
+        font-family: cursive;
+        font-style: italic;
+        text-align: center;
+      }
+      body{
+        background: url("beach.gif") no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      img{
+        width:200px;
+      }
+      a{
+        color: pink;
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    <button onclick="myFunction()">Favorite Websites</button>
+    <button onclick="goodvibes()">Good Vibes</button>
+    <button onclick="music()">Soothing Music</button>
+
+
+    <script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = '<a href="https://buzzfeed.com">Buzzfeed</a> and <a href="https://youtube.com">Youtube!</a>';
+    }
+    function goodvibes() {
+        document.getElementById("demo").innerHTML = '<a href="goodvibes.html">GOOD VIBES</a>';
+    }
+    function music() {
+      document.getElementById('demo').innerHTML='<iframe src="https://open.spotify.com/embed?uri=spotify:album:4RuzGKLG99XctuBMBkFFOC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>';
+    }
+
+    </script>
+
+    <p id="demo"></p>
+    <h1> SARIT'S PAGE </h1>
+    <h2>About me</h2>
+    <div>
+    <p class="first">  Hey, my name is Sarit! I live in NYC.</p>
+    <p>
+      <img src="nyc.gif">
+    </p>
+    <p class="second">I love running!</p>
+    <p>
+      <img src="simpson.gif">
+    </p>
+   </div>
+   <!-- <p> My favorite movie is Soul Surfer</p> -->
+   <p class="first">My favorite cartoon is Scooby Doo</p>
+   <p>
+   <img src="giphy.gif">
+ </p>
+   <p class="second"> pistachio is my #1 flavor of ice cream!</p>
+<p>
+<img src="pistachio.gif">
+</p>
+    <p>I am currently enrolled in the <a href="https://www.girlswhocode.com/">Girls Who Code summer immersion program!</a>
+    </p>
+    <!-- <p>
+      <a href="contact.html">click here for contact information</a>
+    </p> -->
+    <p>
+    <!-- My favorite website is <a href="https//:miniclip.com">miniclip!</a> -->
+    <img src="dance.gif">
+  </p>
+  <p>most preferred dish: </p>
+  <p>
+  <img src="chinese.gif">
+</p>
+  <p>
+  I <em> really </em> love sunsets!
+  </p>
+  <p>
+  <img src="sunset.jpg">
+
+
+<!-- <p ><iframe src="https://open.spotify.com/embed?uri=spotify:album:4RuzGKLG99XctuBMBkFFOC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</p> -->
+    <!-- <video src="giphy.mp4" autoplay poster="posterimage.jpg"> -->
+    <!-- </video> -->
+
+  <!-- // if (confirm("Welcome to my Page!")){
+  // }
+  // else {
+  //  window.location.href='https://google.com';
+  // }
+  // alert('Welcome to my page!'); -->
+
+  </body>
+</html>
