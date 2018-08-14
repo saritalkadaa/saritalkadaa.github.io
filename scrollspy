@@ -1,0 +1,35 @@
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="Groove" href="#">Groove</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#mood">Mood Finder</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#personality">Personality Quiz</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#aboutus">About Us</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <!-- <div class="dropdown-menu">
+        <a class="dropdown-item" href="#one">one</a>
+        <a class="dropdown-item" href="#two">two</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#three">three</a>
+      </div> -->
+    </li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="groove">Groove</h4>
+  <p>...</p>
+  <h4 id="mood">Mood</h4>
+  <p>...</p>
+  <h4 id="personality">Personality Quiz</h4>
+  <p>...</p>
+  <h4 id="aboutus">About Us</h4>
+  <p>...</p>
+  <h4 id="three">three</h4>
+  <p>...</p>
+</div>
